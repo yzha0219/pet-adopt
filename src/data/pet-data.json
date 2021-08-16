@@ -1,0 +1,28 @@
+{
+  "pets": [
+    {
+      "petId": 100001,
+      "species": "cat",
+      "name": "Ginger",
+      "age": 9,
+      "vaccine": true,
+      "sterilized": true,
+      "de-worming": true,
+      "description": "Ginger cat, super large",
+      "requirement": "identification, patient, rich",
+      "images": "../assets/logo.png"
+    },
+    {
+      "petId": 100002,
+      "species": "cat",
+      "name": "Coco",
+      "age": 3,
+      "vaccine": true,
+      "sterilized": true,
+      "de-worming": true,
+      "description": "Ragdoll, clever",
+      "requirement": "identification, patient, rich",
+      "images": "../assets/logo.png"
+    }
+  ]
+}
