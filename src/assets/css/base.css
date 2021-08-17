@@ -16,7 +16,7 @@
   background-color: #E9EEF3;
   color: #333;
   text-align: center;
-  line-height: 160px;
+  line-height: 100%;
 }
 
 body > .el-container {
@@ -30,4 +30,8 @@ body > .el-container {
 
 .el-container:nth-child(7) .el-aside {
   line-height: 320px;
+}
+
+.el-col {
+  border-radius: 4px;
 }
