@@ -14,6 +14,7 @@
             <el-col :span="20">
               <h4>{{ pet.name }}</h4>
               <p>{{ pet.description }}</p>
+              <p>{{ pet.requirement }}</p>
             </el-col>
           </el-card>
         </el-row>
