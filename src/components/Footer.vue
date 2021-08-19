@@ -1,5 +1,5 @@
 <template>
-  <el-footer>Footer</el-footer>
+  <el-footer>Contact us</el-footer>
 </template>
 
 <script>

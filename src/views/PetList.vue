@@ -4,12 +4,11 @@
       <Header></Header>
     </el-header>
     <el-container>
-      <el-aside>Aside</el-aside>
       <el-main>
         <el-row gutter="20">
           <el-card v-for="pet in pets">
             <el-col :span="4">
-              <el-avatar></el-avatar>
+              <el-image :src="require('../assets/' + pet.images)" alt="loading" ></el-image>
             </el-col>
             <el-col :span="20">
               <h4>{{ pet.name }}</h4>

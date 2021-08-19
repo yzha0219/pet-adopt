@@ -10,7 +10,7 @@
       "de-worming": true,
       "description": "Ginger cat, super large",
       "requirement": "identification, patient, rich",
-      "images": "../assets/logo.png"
+      "images": "ginger.png"
     },
     {
       "petId": 100002,
@@ -22,7 +22,7 @@
       "de-worming": true,
       "description": "Ragdoll, clever",
       "requirement": "identification, patient, rich",
-      "images": "../assets/logo.png"
+      "images": "coco.png"
     }
   ]
 }
