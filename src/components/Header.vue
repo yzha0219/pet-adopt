@@ -6,28 +6,16 @@
       </el-col>
       <el-col :span="20">
         <el-menu
-          :default-active="activeIndex2"
+          :default-active="this.$router.currentRoute.path"
           class="el-menu-demo"
           mode="horizontal"
           @select="handleSelect"
           background-color="#545c64"
           text-color="#fff"
-          active-text-color="#ffd04b">
-          <el-menu-item index="1">Find pets</el-menu-item>
-          <el-submenu index="2">
-            <template slot="title">Enroll pets</template>
-            <el-menu-item index="2-1">选项1</el-menu-item>
-            <el-menu-item index="2-2">选项2</el-menu-item>
-            <el-menu-item index="2-3">选项3</el-menu-item>
-            <el-submenu index="2-4">
-              <template slot="title">选项4</template>
-              <el-menu-item index="2-4-1">选项1</el-menu-item>
-              <el-menu-item index="2-4-2">选项2</el-menu-item>
-              <el-menu-item index="2-4-3">选项3</el-menu-item>
-            </el-submenu>
-          </el-submenu>
-          <el-menu-item index="3" disabled>消息中心</el-menu-item>
-          <el-menu-item index="4">订单管理</el-menu-item>
+          active-text-color="#ffd04b"
+          router>
+          <el-menu-item index="/petList">Find pets</el-menu-item>
+          <el-menu-item index="/createPet">Register pets</el-menu-item>
         </el-menu>
       </el-col>
     </el-row>
@@ -39,8 +27,6 @@ export default {
   name: "Header",
   data() {
     return {
-      activeIndex: '1',
-      activeIndex2: '1'
     };
   },
   methods: {
